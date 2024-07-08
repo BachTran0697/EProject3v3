@@ -17,7 +17,8 @@ namespace eProject3.Models
         [JsonIgnore]
         public virtual ICollection<Coach>? Coaches { get; set; }
         public virtual ICollection<Reservation>? Reservations { get; set; }
-        public virtual ICollection<Train_Schedule> TrainSchedules { get; set;}
+
+        public virtual ICollection<Train_Schedule>? TrainSchedules { get; set;}
         
     }
 

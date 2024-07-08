@@ -12,7 +12,7 @@ using eProject3.Models;
 namespace eProject3.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20240707220536_InitialCreate")]
+    [Migration("20240708050635_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
